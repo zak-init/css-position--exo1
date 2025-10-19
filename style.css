@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  background: #f4f4f4;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.center {
+  background: gold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  background: tomato;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.bottom-left {
+  background: lightseagreen;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
