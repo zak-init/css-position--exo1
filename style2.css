@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.un {
+  position: absolute;
+  right: 0%;
+  background-color: aqua;
+}
+.deux {
+  position: absolute;
+  right: 0%;
+  top: 13%;
+  background-color: blueviolet;
+}
+
+.trois {
+  position: absolute;
+  right: 0%;
+  top: 26%;
+  background-color: crimson;
+}
+
+.flex {
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: space-between;
+}
+
+.ok {
+  background-color: lightgreen;
+}
